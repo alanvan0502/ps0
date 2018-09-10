@@ -35,6 +35,7 @@ public class RulesOf6005 {
     public static boolean mayUseCodeInAssignment(boolean writtenByYourself,
             boolean availableToOthers, boolean writtenAsCourseWork,
             boolean citingYourSource, boolean implementationRequired) {
+        String test1;
         return writtenByYourself || availableToOthers && citingYourSource || writtenAsCourseWork ||
                 implementationRequired;
     }
